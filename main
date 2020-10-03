@@ -1,0 +1,12 @@
+//  Основная часть, которая служит отправной точкой для программы, считающей факториал
+import java.util.Scanner; //Импотр сканера для ввода числа
+
+public class main {
+	public static void main(String[] args) {
+		System.out.printf("введите число"); //Выводит сообщение
+		Scanner in = new Scanner(System.in); //Собственно сам сканер
+		int fac = in.nextInt(); //Присваивание переменной fac введеного значения
+		fact.factor(fac); //Передача значения в класс фактор, и последующий вывод его на экран
+		in.close();
+	}
+}
